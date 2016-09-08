@@ -25,4 +25,5 @@ dependencies {
     compile project(':gvr-android-sdk/libraries:common')
     compile project(':gvr-android-sdk/libraries:commonwidget')
     compile project(':gvr-android-sdk/libraries:panowidget')
+    compile project(':gvr-android-sdk/libraries:videowidget')
 }
