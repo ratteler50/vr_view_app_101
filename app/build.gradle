@@ -20,6 +20,9 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:23.3.0'
-    compile 'com.android.support:design:23.3.0'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile project(':gvr-android-sdk/libraries:common')
+    compile project(':gvr-android-sdk/libraries:commonwidget')
+    compile project(':gvr-android-sdk/libraries:panowidget')
 }
